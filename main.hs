@@ -1,7 +1,3 @@
-finalGrade :: [a] -> [a] -> a
-finalGrade x y
-	 z == zipWith (*) x y
-	 w == sum z
-	 r == sum y
-	 s == w/r
+finalGrade :: [Int] -> [Int] -> Int
+finalGrade x y = (sum(zipWith (*)x y )) `div` (sum y)
 			
